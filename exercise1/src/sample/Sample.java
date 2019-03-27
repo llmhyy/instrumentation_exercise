@@ -49,6 +49,7 @@ public class Sample {
     }
  
     private void exchangeNumbers(int i, int j) {
+
         int temp = array[i];
         array[i] = array[j];
         array[j] = temp;
